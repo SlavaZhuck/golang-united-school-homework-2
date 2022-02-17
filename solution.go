@@ -32,6 +32,6 @@ func CalcSquare(sideLen float64, sidesNum sideNumber) float64 {
 	case SidesCircle:
 		return sideLen * sideLen * math.Pi
 	default:
-		return -1
+		return 0
 	}
 }
